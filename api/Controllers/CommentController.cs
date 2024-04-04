@@ -49,7 +49,6 @@ namespace api.Controllers
         }
 
         [HttpPost("{stockId}")]
-
         public async Task<IActionResult> Create([FromRoute] int stockId, CreateCommentDto commentDto)
         {
             if (!await _stockRepo.StockExists(stockId))
@@ -61,8 +60,18 @@ namespace api.Controllers
             await _commentRepo.CreateAsync(commentModel);
 
             return CreatedAtAction(nameof(GetById), new { id = commentModel }, commentModel.ToCommentDto());
+        }
 
-
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
+        {
+            var comment = await _commentRepo.DeleteAsync(id);
+            if (comment == null)
+            {
+                return NotFound();
+            }
+            return NoContent();
         }
     }
 }
