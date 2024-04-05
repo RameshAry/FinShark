@@ -39,3 +39,10 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
+
+
+
+
+
+// "DefaultConnection": "Data Source=localhost;Initial Catalog=finshark;User Id=sa;Password=Einsteins1.;Integrated Security=True;TrustServerCertificate=true;Trusted_Connection=false"
+// "DefaultConnection": "Data Source=fin-shark.database.windows.net;Initial Catalog=finshark;User Id=CloudSA0121fa19;Password=AlbertEinsteins1.;Integrated Security=True;TrustServerCertificate=true;Trusted_Connection=false"
