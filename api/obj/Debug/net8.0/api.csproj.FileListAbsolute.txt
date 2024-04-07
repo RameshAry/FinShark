@@ -142,4 +142,4 @@
 /Users/Ramesh/Desktop/Builds/FinShark/api/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /Users/Ramesh/Desktop/Builds/FinShark/api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/Ramesh/Desktop/Builds/FinShark/api/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/Ramesh/Desktop/Builds/FinShark/api/obj/Debug/net8.0/api.csproj.Up2Date
+/Users/Ramesh/Desktop/Builds/FinShark/api/obj/Debug/net8.0/api.csproj.CopyComplete
